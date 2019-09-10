@@ -29,13 +29,13 @@ console.log("O segundo elemento do segundo array é "+ myArr[5][1] +".")
 Mostre no console quantos itens tem o primeiro array criado, com a frase:
 "O primeiro array tem [QUANTIDADE DE ITENS] itens."
 */
-console.log("O primeiro array tem " + myArr.push() + " itens.")
+console.log("O primeiro array tem " + myArr.length + " itens.")
 
 /*
 Agora mostre no console quantos itens tem o segundo array criado, com a frase:
 "O segundo array tem [QUANTIDADE DE ITENS] itens."
 */
-console.log("O segundo array tem " + myArr[5].push() + " itens.")
+console.log("O segundo array tem " + myArr[5].length + " itens.")
 
 /*
 Utilizando a estrutura de repetição `while`, mostre no console todos os números
