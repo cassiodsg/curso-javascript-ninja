@@ -41,9 +41,10 @@ console.log("O segundo array tem " + myArr[5].length + " itens.")
 Utilizando a estrutura de repetição `while`, mostre no console todos os números
 pares entre 10 e 20, inclusive esses 2.
 */
+console.log( 'Números pares entre 10 e 20:')
 var pares = 10;
 while(pares <= 20 ){
-    pares % 2 === 0 ? console.log( 'Números pares entre 10 e 20: '+ pares +'' ): '';
+    pares % 2 === 0 ? console.log( pares ): '';
     ++pares
 }
  
@@ -52,9 +53,10 @@ while(pares <= 20 ){
 /*
 Na mesma ideia do exercício acima: mostre agora os números ímpares.
 */
+console.log( 'Números ímpares entre 10 e 20:')
 var impares = 10;
 while(impares <= 20 ){
-    impares % 2 === 1 ? console.log( 'Números ímpares entre 10 e 20: '+ impares +'' ): '';
+    impares % 2 === 1 ? console.log( impares ): '';
     ++impares
 }
 
@@ -65,10 +67,12 @@ Só vamos mudar o range:
 - No primeiro "for", mostre os números pares entre 100 e 120, inclusive eles;
 - No segundo "for", mostre os números ímpares entre 111 e 125, inclusive eles.
 */
+console.log( 'Números pares entre 100 e 120:')
 for(var par = 100; par <= 120; par++){
-    par % 2 === 0 ? console.log( 'Números pares entre 100 e 120: ' + par + '' ): '';
+    par % 2 === 0 ? console.log( par ): '';
 }
 
+console.log( 'Números ímpares entre 111 e 125:')
 for(var impar = 111; impar <= 125; impar++){
-    impar % 2 === 1 ? console.log( 'Números ímpares entre 111 e 125: ' + impar + '' ): '';
+    impar % 2 === 1 ? console.log( impar ): '';
 }
